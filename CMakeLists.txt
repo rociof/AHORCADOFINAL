@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(AHORCADOFINAL VERSION 0.1.0)
+project(ahorcado VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
 
-add_executable(AHORCADOFINAL main.cpp)
+add_executable(ahorcado main.cpp jugador.cpp funciones.cpp) 
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

@@ -19,8 +19,9 @@ Jugador::~Jugador()
 void Jugador::verJugador()
 {
     cout << "--------------------------\n";
-    cout << nombre.substr(0, 5) << endl;
+    cout << nombre << endl;
     cout << secreto << endl;
+    cout << "Tamanio  "<< nombre << " --> "<<  nombre.length() <<endl;
 }
 
 // encapsulamiento
@@ -46,6 +47,24 @@ string Jugador::getPalabra()
     return secreto;
 }
 
+// Palabra secreta
+void Jugador::setPalabraAdivina(string _adivina)
+{
+    adivina = _adivina;
+}
+
+string Jugador::getPalabraAdivina()
+{
+    return adivina;
+}
+
+
+
+
+
+
+
+
 void Jugador::decirLetra(char letra)
 {
     for (int i = 0; i < 20; i++)
@@ -60,7 +79,12 @@ void Jugador::decirLetra(char letra)
             v1[i] = letra;
         }
     }
-    for (int i = 0; i < v1.size(); i++){
+    for (int i = 0; i < 10; i++){
         cout << v1[i];
     }
+}
+
+int Jugador::getFallos(int& fallos){
+    fallos++;
+    return fallos;
 }
