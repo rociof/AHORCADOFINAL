@@ -65,7 +65,7 @@ int main()
     // vector letras ingresadas
     
     // char *miVector[10];
-    string rocio;
+    string rocio, v3;
     
 
     do
@@ -116,23 +116,30 @@ int main()
                 if(turno == 1){                   
                     // string pal = j1.getPalabraAdivina();
                     // pal[i] = letra;
+                    j2.setPalabraAdivina(rocio);
                     rocio[i]= letra;
-                    j1.setPalabraAdivina(rocio);
-                    rocio = j1.getPalabraAdivina();
+                    rocio = j2.getPalabraAdivina();
+                    // j1.setPalabraAdivina(rocio);
+                    // rocio = j1.getPalabraAdivina();
 
                 } else {
-                    // string pal = j2.getPalabraAdivina();
+                    j1.setPalabraAdivina(rocio);
                     rocio[i]=letra;
-                    j2.setPalabraAdivina(rocio);
-                    rocio = j2.getPalabraAdivina();
+                    rocio = j1.getPalabraAdivina();
+                    // rocio = j2.getPalabraAdivina();
                 }      
+
 
                 // pal[i]= letra;     // acierto y ubico letra en vector;
 
                 cout << "Encontrada";
             }
-
         }        
+                cout << "PALABRA " << rocio << endl; ;
+                // cin.get();
+                // char a;
+                // cin >> a;
+                 system("pause");
        
         if(turno==1){
             turno=2;

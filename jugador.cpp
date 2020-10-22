@@ -58,13 +58,6 @@ string Jugador::getPalabraAdivina()
     return adivina;
 }
 
-
-
-
-
-
-
-
 void Jugador::decirLetra(char letra)
 {
     for (int i = 0; i < 20; i++)
