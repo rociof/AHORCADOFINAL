@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL
+# Install script for directory: C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

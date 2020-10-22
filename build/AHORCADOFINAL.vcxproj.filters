@@ -1,16 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Ro\Documents\curso progra_bd\AHORCADOFINAL\main.cpp">
+    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\funciones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\jugador.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Ro\Documents\curso progra_bd\AHORCADOFINAL\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{05CB4173-E297-3192-A6BC-1FED95A9D01C}</UniqueIdentifier>
+      <UniqueIdentifier>{F8D7860A-CAEC-370E-9CD7-CD5166C1132F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

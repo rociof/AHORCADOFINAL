@@ -1,9 +1,9 @@
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/NightlyMemoryCheck.dir
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/Experimental.dir
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/Continuous.dir
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/Nightly.dir
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/AHORCADOFINAL.dir
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/PACKAGE.dir
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Ro/Documents/curso progra_bd/AHORCADOFINAL/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/Experimental.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/Continuous.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/Nightly.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/AHORCADOFINAL.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/PACKAGE.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/ZERO_CHECK.dir
