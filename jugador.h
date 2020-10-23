@@ -33,6 +33,7 @@ public:
 
     // destructor  
     ~Jugador();
+    
 };
 
 

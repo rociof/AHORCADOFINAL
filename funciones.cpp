@@ -159,5 +159,6 @@ void pantallaJugador(Jugador j1, Jugador j2)
 	cout << "Fallos " << j1.fallos << endl;
 	cout << j1.getPalabraAdivina();
 	aciertos = j2.getPalabra();
-	k = j1.fallos;
+	k = j1.fallos; 
+	
 }

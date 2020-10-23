@@ -14,3 +14,4 @@ void MostrarAhorcado(int);
 char IngresarLetra();
 void pantallaJugador(Jugador,Jugador );
 
+

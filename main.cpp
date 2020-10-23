@@ -128,8 +128,7 @@ int main()
 
         // buscar letra ingresada
         string veo;
-        j1.decirLetra(letra, veo);
-        
+        j1.decirLetra(letra, veo);        
 
         cout << ingresos;
 

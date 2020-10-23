@@ -75,6 +75,7 @@ void Jugador::decirLetra(char letra, string v1)
     }
     for (int i = 0; i < 10; i++){
         cout << v1[i];
+        
     }
 }
 
