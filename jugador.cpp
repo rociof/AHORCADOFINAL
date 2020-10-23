@@ -6,10 +6,7 @@ using namespace std;
 
 // Constructor
 Jugador::Jugador()
-{
-    // nombre = _nombre;
-    // cout << "Constructor "<< nombre << endl;
-}
+{}
 
 // Destructor
 Jugador::~Jugador()
@@ -58,11 +55,15 @@ string Jugador::getPalabraAdivina()
     return adivina;
 }
 
-void Jugador::decirLetra(char letra)
+
+
+// ****************************************************************
+// V E R
+// ****************************************************************
+void Jugador::decirLetra(char letra, string v1)
 {
     for (int i = 0; i < 20; i++)
     {
-
         if (v1[i] == letra)
         {
             cout << " La letra ya ha sido ingresada" << endl;
@@ -74,10 +75,7 @@ void Jugador::decirLetra(char letra)
     }
     for (int i = 0; i < 10; i++){
         cout << v1[i];
+        
     }
 }
 
-int Jugador::getFallos(int& fallos){
-    fallos++;
-    return fallos;
-}

@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 22/10/2020 11:43:11.
+Build started 23/10/2020 9:20:19.
 Project "C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\3.17.20032601-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.93
+Time Elapsed 00:00:01.61
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 22/10/2020 11:43:13.
+Build started 23/10/2020 9:20:21.
 Project "C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\3.17.20032601-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.23
+Time Elapsed 00:00:01.17
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,56 +92,56 @@ The CXX compiler identification is MSVC, found in "C:/Users/Aula/Documents/ROCIO
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_31520.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_b9baa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Compilador de optimización de C/C++ de Microsoft (R) versión 19.27.29112 para x64
   testCCompiler.c
   (C) Microsoft Corporation. Todos los derechos reservados.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31520.dir\Debug\\" /Fd"cmTC_31520.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\testCCompiler.c
-  cmTC_31520.vcxproj -> C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\Debug\cmTC_31520.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9baa.dir\Debug\\" /Fd"cmTC_b9baa.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cmTC_b9baa.vcxproj -> C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\Debug\cmTC_b9baa.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_2bb02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_98de5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Compilador de optimización de C/C++ de Microsoft (R) versión 19.27.29112 para x64
   CMakeCCompilerABI.c
   (C) Microsoft Corporation. Todos los derechos reservados.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bb02.dir\Debug\\" /Fd"cmTC_2bb02.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
-  cmTC_2bb02.vcxproj -> C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\Debug\cmTC_2bb02.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98de5.dir\Debug\\" /Fd"cmTC_98de5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+  cmTC_98de5.vcxproj -> C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\Debug\cmTC_98de5.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_1767a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_6c753.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Compilador de optimización de C/C++ de Microsoft (R) versión 19.27.29112 para x64
-  (C) Microsoft Corporation. Todos los derechos reservados.
   testCXXCompiler.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1767a.dir\Debug\\" /Fd"cmTC_1767a.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  cmTC_1767a.vcxproj -> C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\Debug\cmTC_1767a.exe
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6c753.dir\Debug\\" /Fd"cmTC_6c753.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cmTC_6c753.vcxproj -> C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\Debug\cmTC_6c753.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_79357.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_af27f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.7.0+b89cb5fde for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Compilador de optimización de C/C++ de Microsoft (R) versión 19.27.29112 para x64
   CMakeCXXCompilerABI.cpp
   (C) Microsoft Corporation. Todos los derechos reservados.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_79357.dir\Debug\\" /Fd"cmTC_79357.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_79357.vcxproj -> C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\Debug\cmTC_79357.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af27f.dir\Debug\\" /Fd"cmTC_af27f.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_af27f.vcxproj -> C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\CMakeFiles\CMakeTmp\Debug\cmTC_af27f.exe
 
 
 

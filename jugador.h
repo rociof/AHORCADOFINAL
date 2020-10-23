@@ -7,28 +7,34 @@ using namespace std;
 class Jugador
 {
 private:    
-    string nombre,secreto,adivina;
-    int jugada;
-
-    char v1[20];//array que almacena los caracteres introducidos por usuario
-    
+    string nombre;              // nombre Jugado
+    string secreto;             // Palabra a Adivinar
+    int jugada;                 // Jugada
    
 public:
     int fallos=0;
-    Jugador(); // constructor
+    string adivina;
+    string cuentaLetras;
+    // constructor
+    Jugador(); 
+
     void verJugador();
+
     void setNombre(string);         // setter Nombre Jugador
     string getNombre();             // get Nombre Jugador
+
     void setPalabra(string);        // setter Palabra Secreta
     string getPalabra();            // get  Palabra Secreta
 
     void setPalabraAdivina(string);        // setter Palabra Secreta Aciertos
     string getPalabraAdivina();            // get  Palabra Secreta Aciertos
 
-    void decirLetra(char); 
-    int getFallos(int&);
-    // char l[];    
+    void decirLetra(char, string); 
+    // int getFallos(int&);
+
+    // destructor  
     ~Jugador();
+    
 };
 
 

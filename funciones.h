@@ -3,6 +3,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <cctype>
+#include "jugador.h"
 
 using namespace std;
 
@@ -11,3 +12,6 @@ string aMayusculas(string);
 void limpioPantalla();
 void MostrarAhorcado(int);
 char IngresarLetra();
+void pantallaJugador(Jugador,Jugador );
+
+

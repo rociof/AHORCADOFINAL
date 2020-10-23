@@ -2,6 +2,7 @@
 #include <cctype>
 #include <stdlib.h>
 #include "funciones.h"
+#include "jugador.h"
 #include "string"
 
 using namespace std;
@@ -123,18 +124,41 @@ char IngresarLetra()
 	{
 		cout << "Ingresar letra : ";
 		cin >> letra;
-		// valor = letra;	
+		// valor = letra;
 
-		if (letra >= 'a' && letra <='z'){
+		if (letra >= 'a' && letra <= 'z')
+		{
 			//cout << "Valor ASCII de la Letra: " << (valor-32);
 			letra -= 32;
 		}
 
-		if(letra >= 'A' && letra <='Z'){
+		if (letra >= 'A' && letra <= 'Z')
+		{
 			break;
 		}
 
 	} while (true);
 
 	return letra;
+}
+
+void pantallaJugador(Jugador j1, Jugador j2)
+{
+	string palabra, adivina, nombre, nombre2, aciertos;
+	int k;
+
+	// adivina= j1.getPalabraAdivina();
+	palabra = j2.getPalabra(); //////// -- j1
+	adivina = j2.getPalabraAdivina();
+	nombre = j1.getNombre();
+	nombre2 = j2.getNombre();
+	cout << "En Juego: Jugador --> " << nombre << endl;
+	cout << "Palabra Elegida: " << j1.getPalabra() << endl;
+	cout << "Palabra a Adivinar: " << j2.getPalabra();
+	cout << " del jugador: " << j2.getNombre() << endl;
+	cout << "Fallos " << j1.fallos << endl;
+	cout << j1.getPalabraAdivina();
+	aciertos = j2.getPalabra();
+	k = j1.fallos; 
+	
 }
