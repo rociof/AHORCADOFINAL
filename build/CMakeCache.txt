@@ -14,12 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Value Computed by CMake
-AHORCADOFINAL_BINARY_DIR:STATIC=C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build
-
-//Value Computed by CMake
-AHORCADOFINAL_SOURCE_DIR:STATIC=C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL
-
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
@@ -86,7 +80,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/AHORCADOFINAL
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/ahorcado
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/link.exe
@@ -121,7 +115,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=AHORCADOFINAL
+CMAKE_PROJECT_NAME:STATIC=ahorcado
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -284,6 +278,12 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 
 //Path to a program.
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
+
+//Value Computed by CMake
+ahorcado_BINARY_DIR:STATIC=C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL/build
+
+//Value Computed by CMake
+ahorcado_SOURCE_DIR:STATIC=C:/Users/Aula/Documents/ROCIO/AHORCADOFINAL
 
 
 ########################

@@ -7,34 +7,32 @@ using namespace std;
 class Jugador
 {
 private:    
-    string nombre;              // nombre Jugado
-    string secreto;             // Palabra a Adivinar
-    int jugada;                 // Jugada
+    string nombre;                          // nombre Jugador
+    string secreto;                         // Palabra a Adivinar
+    int jugada;                             // Jugada
    
 public:
-    int fallos=0;
-    string adivina;
-    string cuentaLetras;
+    int fallos=0;                           // fallos jugador
+    string adivina;                         // palabra a adivinar oponente
+    string cuentaLetras = "----------";     // letras ingresadas
+    
     // constructor
     Jugador(); 
 
-    void verJugador();
+    // Prop Jugador
+    void setNombre(string);         
+    string getNombre();             
 
-    void setNombre(string);         // setter Nombre Jugador
-    string getNombre();             // get Nombre Jugador
+    // Prop Palabra
+    void setPalabra(string);        
+    string getPalabra();            
 
-    void setPalabra(string);        // setter Palabra Secreta
-    string getPalabra();            // get  Palabra Secreta
-
-    void setPalabraAdivina(string);        // setter Palabra Secreta Aciertos
-    string getPalabraAdivina();            // get  Palabra Secreta Aciertos
-
-    void decirLetra(char, string); 
-    // int getFallos(int&);
+    // Prop Palabra adivinar
+    void setPalabraAdivina(string); 
+    string getPalabraAdivina(); 
 
     // destructor  
-    ~Jugador();
-    
+    ~Jugador();    
 };
 
 

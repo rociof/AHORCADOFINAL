@@ -6,20 +6,21 @@ using namespace std;
 
 // Constructor
 Jugador::Jugador()
-{}
+{
+}
 
 // Destructor
 Jugador::~Jugador()
 {
 }
 
-void Jugador::verJugador()
-{
-    cout << "--------------------------\n";
-    cout << nombre << endl;
-    cout << secreto << endl;
-    cout << "Tamanio  "<< nombre << " --> "<<  nombre.length() <<endl;
-}
+// void Jugador::verJugador()
+// {
+//     cout << "--------------------------\n";
+//     cout << nombre << endl;
+//     cout << secreto << endl;
+//     cout << "Tamanio  " << nombre << " --> " << nombre.length() << endl;
+// }
 
 // encapsulamiento
 // Nombre del jugador
@@ -44,7 +45,7 @@ string Jugador::getPalabra()
     return secreto;
 }
 
-// Palabra secreta
+// Palabra adivinar
 void Jugador::setPalabraAdivina(string _adivina)
 {
     adivina = _adivina;
@@ -53,29 +54,5 @@ void Jugador::setPalabraAdivina(string _adivina)
 string Jugador::getPalabraAdivina()
 {
     return adivina;
-}
-
-
-
-// ****************************************************************
-// V E R
-// ****************************************************************
-void Jugador::decirLetra(char letra, string v1)
-{
-    for (int i = 0; i < 20; i++)
-    {
-        if (v1[i] == letra)
-        {
-            cout << " La letra ya ha sido ingresada" << endl;
-        }
-        else if (v1[i] != ' ')
-        {
-            v1[i] = letra;
-        }
-    }
-    for (int i = 0; i < 10; i++){
-        cout << v1[i];
-        
-    }
 }
 

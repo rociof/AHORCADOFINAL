@@ -169,9 +169,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\AHORCADOFINAL.vcxproj">
-      <Project>{81FEF221-F043-310B-9F2D-554B58857609}</Project>
-      <Name>AHORCADOFINAL</Name>
+    <ProjectReference Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\ahorcado.vcxproj">
+      <Project>{EE369FBE-A9E3-3BEA-B2F2-0968CA7CB605}</Project>
+      <Name>ahorcado</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

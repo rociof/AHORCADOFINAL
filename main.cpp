@@ -17,6 +17,7 @@
 using namespace std;
 
 int main()
+
 {
     limpioPantalla();
 
@@ -71,13 +72,14 @@ int main()
     j1.setPalabraAdivina(secret2);
     j2.setPalabraAdivina(secret1);
 
-    // vector 
+    // vector
     for (int i = 0; i < j1.getPalabraAdivina().length(); i++)
     {
         j1.adivina[i] = '-';
     }
 
-    for (int i = 0; i < j2.getPalabraAdivina().length(); i++)
+    int i =0 ;
+    for (i = 0; i < j2.getPalabraAdivina().length(); i++)
     {
         j2.adivina[i] = '-';
     }
@@ -90,65 +92,58 @@ int main()
 
     // TOTAL JUGADAS MAX 8
     // vector letras ingresadas
-
-    do
-    {
-      
-        // int k;                      // variable para fallos
-        string nombre, nombre2; 
-        string palabra;
-        string adivina;         
-        string aciertos;
-        // string ingresos[20];    // letras ingresadas
-        
        
-
+        string palabra;
+        string adivina;
+    do
+    {       
+        string nombre;                      
+      
         limpioPantalla();
         cout << "Ronda numero: " << jugada << endl;
         if (turno == 1)
         {
-            pantallaJugador(j1,j2);
-            palabra = j2.getPalabra(); 
-            adivina = j2.getPalabraAdivina();
-            aciertos = j2.getPalabra();                     
+            pantallaJugador(j1, j2);
+            nombre = j1.getNombre();
+
+            palabra = j2.getPalabra();
+            adivina = j2.getPalabraAdivina();            
             MostrarAhorcado(j1.fallos);
-           
         }
         else
         {
-            pantallaJugador(j2,j1);
+            pantallaJugador(j2, j1);
+            nombre = j2.getNombre();
             palabra = j1.getPalabra();
-            adivina = j1.getPalabraAdivina();
-            aciertos = j1.getPalabra();            
+            adivina = j1.getPalabraAdivina();            
             MostrarAhorcado(j2.fallos);
         }
 
         // ingresar letra
         entrada:
-        letra = IngresarLetra();
-        
-       
-
-        if(turno==1){
-            
-           
-        if( j1.cuentaLetras.find(letra) >= 0) {
-            // goto entrada;
-            
+        letra = IngresarLetra();    
+    
+        bool c;
+        if (turno == 1)
+        {
+            c = buscoLetra(j1, letra);  // 
+            if(c==false){
+                goto entrada; // vuelve a pedir letra
+            }             
         }
-        
-
-        // buscar letra ingresada
-        // string veo;
-
-
-
-        // j1.decirLetra(letra, veo);        
-
+        else
+        {
+            bool c = buscoLetra(j2, letra);
+            if(c==false){
+                goto entrada; // vuelve a pedir
+            } 
+            
+        } //goto entrada;
+       
         // Verifico LETRA / Palabra
         bool fallo = false;
         for (int i = 0; i < palabra.length(); i++)
-        {            
+        {
             if (palabra[i] == letra)
             {
                 fallo = true;
@@ -164,12 +159,11 @@ int main()
                 }
             }
         }
-        cout << "PALABRA " << adivina << endl;
-        cin.get();
-
-        if (aciertos == adivina)
-        {
-            cout << "Ganaste !!!!!!!!" << endl;
+      
+        if (palabra == adivina)
+        {           
+            cout << "Ganaste " <<  nombre << " !!!!!!" << endl;
+            cout << "Palabra Escondida: " << palabra << endl;
             break;
         }
 
@@ -193,9 +187,8 @@ int main()
             {
                 break;
             }
-        }       
-
-    } while (jugada < 20);      
+        }
+    } while (jugada < 20);
 
     return 0;
 }

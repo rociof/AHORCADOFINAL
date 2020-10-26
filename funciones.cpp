@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cctype>
 #include <stdlib.h>
+#include "string"
 #include "funciones.h"
 #include "jugador.h"
-#include "string"
 
 using namespace std;
 
@@ -22,7 +22,6 @@ string aMayusculas(string cade)
 
 void limpioPantalla()
 {
-
 #ifdef _WIN32
 	system("cls");
 	std::cout << "Windows" << std::endl;
@@ -124,7 +123,6 @@ char IngresarLetra()
 	{
 		cout << "Ingresar letra : ";
 		cin >> letra;
-		// valor = letra;
 
 		if (letra >= 'a' && letra <= 'z')
 		{
@@ -142,23 +140,36 @@ char IngresarLetra()
 	return letra;
 }
 
-void pantallaJugador(Jugador j1, Jugador j2)
+void pantallaJugador(Jugador v1, Jugador v2)
 {
-	string palabra, adivina, nombre, nombre2, aciertos;
-	int k;
+	cout << "En Juego: Jugador --> " << v1.getNombre() << endl;
+	cout << "Palabra Elegida: " << v1.getPalabra() << endl;
+	cout << "Palabra a Adivinar: " << v2.getPalabra() << endl;
+	cout << " del jugador: " << v2.getNombre() << endl;
+	cout << "Fallos " << v1.fallos << endl;
+	cout << "Letras introducidas: " << v1.cuentaLetras << endl;
+	cout << "Letras correctas: " << v1.getPalabraAdivina() << endl;
+}
 
-	// adivina= j1.getPalabraAdivina();
-	palabra = j2.getPalabra(); //////// -- j1
-	adivina = j2.getPalabraAdivina();
-	nombre = j1.getNombre();
-	nombre2 = j2.getNombre();
-	cout << "En Juego: Jugador --> " << nombre << endl;
-	cout << "Palabra Elegida: " << j1.getPalabra() << endl;
-	cout << "Palabra a Adivinar: " << j2.getPalabra();
-	cout << " del jugador: " << j2.getNombre() << endl;
-	cout << "Fallos " << j1.fallos << endl;
-	cout << j1.getPalabraAdivina();
-	aciertos = j2.getPalabra();
-	k = j1.fallos; 
-	
+// Cuenta Letras Ingresadas
+bool buscoLetra(Jugador &j, char letra)
+{
+	if ((j.cuentaLetras.find_first_of(letra)) != string::npos)
+	{
+		cout << "La letra está repetida" << endl;
+		return false;
+		// goto entrada; //vuelve al punto de entrada si la letra está repetida
+	}
+	else
+	{
+		for (int i = 0; i < j.cuentaLetras.length(); i++)
+		{
+			if (j.cuentaLetras[i] == '-')
+			{
+				j.cuentaLetras[i] = letra;
+				break;
+			}
+		}
+	}
+	return true;
 }

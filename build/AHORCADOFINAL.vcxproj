@@ -309,8 +309,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\main.cpp" />
-    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\jugador.cpp" />
     <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\funciones.cpp" />
+    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\jugador.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\build\ZERO_CHECK.vcxproj">

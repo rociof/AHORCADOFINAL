@@ -4,10 +4,10 @@
     <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\jugador.cpp">
+    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\funciones.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\funciones.cpp">
+    <ClCompile Include="C:\Users\Aula\Documents\ROCIO\AHORCADOFINAL\jugador.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
